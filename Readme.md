@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Илья Бабкин](https://up.htmlacademy.ru/htmlcss/16/user/282535).
-* Наставник: [Артем Иванец] (https://up.htmlacademy.ru/htmlcss/13/user/155879).
+* Наставник: [Артем Иванец](https://htmlacademy.ru/profile/id155879).
 
 ---
 
