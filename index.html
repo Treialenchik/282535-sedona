@@ -2,11 +2,110 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Седона</title>
+    <title>Sedona</title>
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>
-
+    <header class="main-header">
+      <div class="header-logo"><img src="http://placehold.it/150x100" alt="Sedona"></div>
+        <ul class="main-navigation">
+          <li class="main-navigation-item">
+            <a class="main-navigation-link" href="#">Информация</a>
+          </li>
+          <li class="main-navigation-item">
+            <a class="main-navigation-link" href="#">Фото и видео</a>
+          </li>
+          <li class="main-navigation-item">
+            <a class="main-navigation-link" href="#">Карта штата</a>
+          </li>
+          <li class="main-navigation-item">
+            <a class="main-navigation-link" href="#">Гостиницы</a>
+          </li>
+        </ul>
+     </header>
+     <main>
+      <div class="caption">
+         <h1 class="main-title">Седона - небольшой городок в Аризоне, заслуживающий большего!</h1>
+           <p class="main-title-text">Рассмотрим 5 причин, по которым Седона круче,чем Гранд Каньон!</p>
+      </div>
+      <div class="reason">
+         <h2 class="reason-title">Настоящий городок</h2>
+           <p class="reason-wording">- №1 - Седона - не аттракцион для туристов, там течет своя жизнь</p>
+         <div class="foto"><img src="http://placehold.it/150x100" alt="Кафе"></div>
+      </div>
+      <div class="pros">
+        <div class="art"><img src="http://placehold.it/150x100" alt="Жилье"></div>
+          <h2 class="pros-title">Жилье</h2>
+            <p class="pros-wording">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+      </div>
+      <div class="pros">
+        <div class="art"><img src="http://placehold.it/150x100" alt="Еда"></div>
+          <h2 class="pros-title">Еда</h2>
+            <p class="pros-wording">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+      </div>
+      <div class="pros">
+        <div class="art"><img src="http://placehold.it/150x100" alt="Сувениры"></div>
+          <h2 class="pros-title">Сувениры</h2>
+            <p class="pros-wording">Не только китайского, но и местного производства!</p>
+      </div>
+      <div class="reason">
+         <h2 class="reason-title">Там есть мост Дьявола</h2>
+           <p class="reason-wording">- №2 - Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+      </div>
+      <div class="reason">
+         <div class="foto"><img src="http://placehold.it/150x100" alt="Каньон"></div>
+         <h2 class="reason-title">Небольшая площадь</h2>
+           <p class="reason-wording">- №3 - Все достопримечательности находятся очень близко</p>
+      </div>
+      <div class="reason">
+         <h2 class="reason-title">Красивая дорога</h2>
+           <p class="reason-wording">- №4 - Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+      </div>
+      <div class="reason">
+         <h2 class="reason-title">Мало туристов</h2>
+           <p class="reason-wording">- №5 - Большинство едет в Гранд Каньон и толпится там</p>
+      </div>
+      <section class="decide">
+        <p class="decided-head">Заинтересовались?</p>
+        <p class="decided">Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+      </section>
+        <img src="http://placehold.it/150x100" alt="Карта">
+     </main>
+     <footer class="main-footer">
+       <div class="container">
+        <section class="footer-hashtag">
+          <p class="hashtag">#visitsedona</p>
+        </section>
+        <section class="footer-social">
+          <a class="social-btn social-btn-twit" href="#">Twitter</a>
+          <a class="social-btn social-btn-fb" href="#">Facebook</a>
+          <a class="social-btn social-btn-youtube" href="#">YouTube</a>
+        </section>
+        <section class="footer-copyright">
+          <p class="designed">Website by</p>
+          <a class="btn" href="https://htmlacademy.ru"><img src="http://placehold.it/150x100" alt="Логотип"></a>
+        </section>
+      </div>
+     </footer>
+     <div class="form">
+        <form action="#" method="post">
+            <label>
+                <p class="filling">Дата заезда:</p>
+                <input type="text" name="data" value="24 апреля 2016">
+            </label>
+            <label>
+                <p class="filling">Дата выезда:</p>
+                <input type="text" name="data" value="4 июля 2016">
+            </label> 
+            <label>
+                <p class="filling">Взрослые:</p>
+                <input type="number" name="number" value="2">
+            </label>
+            <label>
+                <p class="filling">Дети:</p>
+                <input type="number" name="number" value="0">
+            </label>
+            <input type="submit" value="Найти">
+        </form>
+      </div>
   </body>
 </html>
