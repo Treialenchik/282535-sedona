@@ -23,72 +23,65 @@
         </ul>
      </header>
      <main>
-        <div class="index-content">
-            <form action="#" method="get">
-              <fieldset class="index-content-title">
-                <legend class="title">Инфраструктура:</legend>
-                  <label><input type="checkbox" name="Бассейн" checked>Бассейн</label>
-                  <label><input type="checkbox" name="Парковка">Парковка</label>
+        <div class="choice">
+            <form class="form" action="#" method="get">
+              <fieldset class="form-title">
+                <legend class="choice-title">Инфраструктура:</legend>
+                  <label class="option"><input type="checkbox" name="Бассейн" checked>Бассейн</label>
+                  <label class="option"><input type="checkbox" name="Парковка">Парковка</label>
                   <label><input type="checkbox" name="Wi-fi">Wi-fi</label>
-                <legend class="title">Тип жилья:</legend>
-                  <label><input type="checkbox" name="Гостиница" checked>Гостиница</label>
-                  <label><input type="checkbox" name="Мотель" checked>Мотель</label>
-                  <label><input type="checkbox" name="Апартаменты" checked>Апартаменты</label>
+              </fieldset>
+              <fieldset class="form-title">    
+                <legend class="choice-title">Тип жилья:</legend>
+                  <label class="option"><input type="checkbox" name="Гостиница" checked>Гостиница</label>
+                  <label class="option"><input type="checkbox" name="Мотель" checked>Мотель</label>
+                  <label class="option"><input type="checkbox" name="Апартаменты" checked>Апартаменты</label>
                   <input type="submit" value="Показать">
               </fieldset>
             </form>
         </div>
         <div class="menu">
             <p class="found">Найдено: 3</p>
-            <p class="sort">Сортировка</p>
-              <ul class="roll">
-                  <li class="roll-link">
-                    <a class="roll-item" href="#">По цене</a></li>
-                  <li class="roll-link">
-                    <a class="roll-item">По типу</a></li>
-                  <li class="roll-link">
-                    <a class="roll-item">По рейтингу</a></li>
-                  <li class="roll-link">
-                    <a class="roll-item" href="#"></a>
+            <p class="sort-list">Сортировка</p>
+              <ul class="sort">
+                  <li class="sort-item">
+                    <a class="sort-link" href="#">По цене</a></li>
+                  <li class="sort-item">
+                    <a class="sort-link">По типу</a></li>
+                  <li class="sort-item">
+                    <a class="sort-link">По рейтингу</a></li>
+                  <li class="sort-item">
+                    <a class="sort-link" href="#"></a>
                   </li>
-                  <li class="roll-link">
-                    <a class="roll-item"></a>
+                  <li class="sort-item">
+                    <a class="sort-link"></a>
                   </li>
               </ul>
          </div>
          <div class="hotels">
            <article>
-             <img src="http://placehold.it/150x100" alt="Amara resort & Spa">
-             <div class="hotel"> 
-                <h2 class="named">Amara resort & Spa</h2>
-                  <span class="kind">Гостиница</span>
-                  <span class="price">от 3500 р.</span>
-                  <a class="more" href="#">Подробнее</a>
-                  <a class="booking" href="#">Забронировать</a>
-                  <span class="top">Рейтинг: 8,5</span>
-             </div>
+             <img class="photo" src="http://placehold.it/150x100" alt="Amara resort & Spa">
+               <h2 class="hotel-title">Amara resort & Spa</h2>
+                 <span class="hotel-text">Гостиница от 3500 р.</span>
+                 <a class="hotel-btn" href="#">Подробнее</a>
+                 <a class="hotel-btn" href="#">Забронировать</a>
+                 <span class="hotel-raiting">Рейтинг: 8,5</span>
            </article>
            <article>
-             <img src="http://placehold.it/150x100" alt="Desert Quail Inn">
-             <div class="hotel"> 
-                <h2 class="named">Desert Quail Inn</h2>
-                  <span class="kind">Мотель</span>
-                  <span class="price">от 2000 р.</span>
-                  <a class="more" href="#">Подробнее</a>
-                  <a class="booking" href="#">Забронировать</a>
-                  <span class="top">Рейтинг: 8,9</span>
-             </div>
+             <img class="photo" src="http://placehold.it/150x100" alt="Desert Quail Inn">
+               <h2 class="hotel-title">Desert Quail Inn</h2>
+                  <span class="hotel-text">Мотель от 2000 р.</span>
+                  <a class="hotel-btn" href="#">Подробнее</a>
+                  <a class="hotel-btn" href="#">Забронировать</a>
+                  <span class="hotel-raiting">Рейтинг: 8,9</span>
            </article>
            <article>
-             <img src="http://placehold.it/150x100" alt="Villas at Poco Diablo">
-             <div class="hotel"> 
-                <h2 class="named">Villas at Poco Diablo</h2>
-                  <span class="kind">Апартаменты</span>
-                  <span class="price">от 4000 р.</span>
-                  <a class="more" href="#">Подробнее</a>
-                  <a class="booking" href="#">Забронировать</a>
-                  <span class="top">Рейтинг: 9,2</span>
-             </div>
+             <img class="photo" src="http://placehold.it/150x100" alt="Villas at Poco Diablo">
+                <h2 class="hotel-title">Villas at Poco Diablo</h2>
+                  <span class="hotel-text">Апартаменты от 4000 р.</span>
+                  <a class="hotel-btn" href="#">Подробнее</a>
+                  <a class="hotel-btn" href="#">Забронировать</a>
+                  <span class="hotel-raiting">Рейтинг: 9,2</span>
            </article>
          </div>
      </main>
@@ -98,13 +91,13 @@
           <p class="hashtag">#visitsedona</p>
         </section>
         <section class="footer-social">
-          <a class="social-btn social-btn-twit" href="#">Twitter</a>
-          <a class="social-btn social-btn-fb" href="#">Facebook</a>
-          <a class="social-btn social-btn-youtube" href="#">YouTube</a>
+          <a class="footer-social footer-social-twit" href="#">Twitter</a>
+          <a class="footer-social footer-social-fb" href="#">Facebook</a>
+          <a class="footer-social footer-social-youtube" href="#">YouTube</a>
         </section>
         <section class="footer-copyright">
           <p class="designed">Website by</p>
-          <a class="btn" href="https://htmlacademy.ru"><img src="http://placehold.it/150x100" alt="Логотип"></a>
+          <a class="logo" href="https://htmlacademy.ru"><img src="http://placehold.it/150x100" alt="Логотип"></a>
         </section>
       </div>
      </footer>
